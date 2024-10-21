@@ -48,7 +48,7 @@ vEBTree *createVEBTree(int size) {
 
     return tree;
 }
-
+// INSERT FUNCITON ADDED
 void insert(vEBTree *tree, int val) {
     if (tree->min_val == NULL_VAL) {
         tree->min_val = tree->max_val = val;
